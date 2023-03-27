@@ -1,0 +1,38 @@
+header {
+    background-color: rgb(121, 30, 121);
+    box-shadow: 5px 5px 5px black;
+}
+
+body header div h1 {
+    text-align: center;
+    font-size: calc(30px + .5vh);
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+
+main div div h2 {
+    font-size: calc(22px + .5vh);
+    text-align: center;
+}
+
+.futurecast {
+    background-color: rgb(54, 52, 52);
+    color: white;
+}
+
+main div div button {
+    border-radius: 6px;
+    font-size: calc(15px + .5vh);
+    color: black;
+    background-color: rgb(22, 213, 127);
+}
+
+main div div button:hover {
+    background-color: rgb(21, 132, 82);
+    color: white;
+}
+
+main div div button:active {
+    background-color: rgb(7, 42, 26);
+    color: white;
+}
