@@ -1,13 +1,13 @@
-* {
-    
-}
+/* The long pathways to the elements is to override the Boostrap styling */
 
+/* Justify content to the right when page is larger */
 header {
     background-color: rgb(121, 30, 121);
     box-shadow: 0px 0px 5px black;
     justify-content: end;
 }
 
+/* Title Website--"Weather Dashboard" */
 body header div h1 {
     text-align: center;
     font-size: calc(30px + .5vh);
@@ -15,21 +15,25 @@ body header div h1 {
     text-shadow: 5px 5px 5px black;
 }
 
+/* Search for City Text */
 main div div h2 {
     font-size: calc(22px + .5vh);
     text-align: center;
 }
 
+/* Future forecast cards */
 .futurecast {
     background-color: rgb(151, 140, 140);
     color: white;
     margin-right: 5px;
 }
 
+/* H3 class--dates on the forecast cards */
 .futDate {
     font-size: 20px;
 }
 
+/* Search Button */
 main div div button {
     border-radius: 6px;
     font-size: calc(15px + .5vh);
@@ -37,25 +41,30 @@ main div div button {
     background-color: rgb(22, 213, 127);
 }
 
+/* Search button hover state */
 main div div button:hover {
     background-color: rgb(21, 132, 82);
     color: white;
 }
 
+/* Search button active state */
 main div div button:active {
     background-color: rgb(7, 42, 26);
     color: white;
 }
 
+/* Name of City on Current Conditions card */
 #curr-city {
     margin-bottom: 0px;
 }
 
+/* Date on Current Conditions card */
 #curr-day {
     font-size: 20px;
     margin: 0px;
 }
 
+/* Icon on Current Conditions card */
 #curr-icon, .futIcon {
     width: 50px;
     height: 50px;
@@ -63,10 +72,12 @@ main div div button:active {
     margin: 0px;
 }
 
+/* Empty ul in which the previous searches will be populated */
 main div ul{
     padding-left: 0px;
 }
 
+/* Previously searched city li's */
 .priorCity {
     font-size: 22px;
     color: white;
@@ -77,21 +88,25 @@ main div ul{
     border: 2px groove rgb(4, 50, 30);
 }
 
+/* Previously searched city li hover state */
 .priorCity:hover {
     cursor: pointer;
     background-color: rgb(153, 102, 204);
 }
 
+/* Previously searched city li active state */
 .priorCity:active {
     background-color: rgb(44, 30, 58);
 }
 
 
 @media screen and (max-width: 1200px) {
+    /* Center header on smaller screens */
     header {
         justify-content: center;
     }
 
+    /* Center current weather info on smaller screens*/
     #curr-weather-card {
         display: flex;
         flex-direction: column;
@@ -101,10 +116,12 @@ main div ul{
 
 @media screen and (max-width: 991px) {
 
+    /* Align "5 Day Forecast" */
     h4{ 
         text-align: center;
     }
 
+    /* Center Future Forecast Cards */
     .futurecast {
     display: flex;
     flex-direction: column;
