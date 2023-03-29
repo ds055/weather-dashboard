@@ -69,9 +69,9 @@ main div ul{
 
 .priorCity {
     font-size: 22px;
-    color: black;
+    color: white;
     text-align: center;
-    background-color: rgb(254, 209, 103);
+    background-color: rgb(113, 148, 118);
     margin-top: calc(10px + 1vh);
     border-radius: 5px;
     border: 2px groove rgb(4, 50, 30);
@@ -79,11 +79,11 @@ main div ul{
 
 .priorCity:hover {
     cursor: pointer;
-    background-color: rgb(253, 228, 178);
+    background-color: rgb(149, 196, 156);
 }
 
 .priorCity:active {
-    background-color: rgb(165, 148, 114);
+    background-color: rgb(85, 111, 89);
 }
 
 
