@@ -16,7 +16,7 @@ main div div h2 {
 }
 
 .futurecast {
-    background-color: rgb(54, 52, 52);
+    background-color: rgb(151, 140, 140);
     color: white;
 }
 
@@ -35,4 +35,11 @@ main div div button:hover {
 main div div button:active {
     background-color: rgb(7, 42, 26);
     color: white;
+}
+
+#curr-icon, .futIcon {
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
 }
