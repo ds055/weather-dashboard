@@ -1,6 +1,11 @@
+* {
+    
+}
+
 header {
     background-color: rgb(121, 30, 121);
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 0px 0px 5px black;
+    justify-content: end;
 }
 
 body header div h1 {
@@ -18,6 +23,11 @@ main div div h2 {
 .futurecast {
     background-color: rgb(151, 140, 140);
     color: white;
+    margin-right: 5px;
+}
+
+.futDate {
+    font-size: 20px;
 }
 
 main div div button {
@@ -51,4 +61,54 @@ main div div button:active {
     height: 50px;
     padding: 0px;
     margin: 0px;
+}
+
+main div ul{
+    padding-left: 0px;
+}
+
+.priorCity {
+    font-size: 22px;
+    color: black;
+    text-align: center;
+    background-color: rgb(254, 209, 103);
+    margin-top: calc(10px + 1vh);
+    border-radius: 5px;
+    border: 2px groove rgb(4, 50, 30);
+}
+
+.priorCity:hover {
+    cursor: pointer;
+    background-color: rgb(253, 228, 178);
+}
+
+.priorCity:active {
+    background-color: rgb(165, 148, 114);
+}
+
+
+@media screen and (max-width: 1200px) {
+    header {
+        justify-content: center;
+    }
+
+    #curr-weather-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    h4{ 
+        text-align: center;
+    }
+
+    .futurecast {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5px;
+    }
 }
