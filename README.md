@@ -6,7 +6,7 @@
 An interactive weather forecasting site/app that allows users to find current and forecasted weather for a specific city. 
 
 ## Screenshot
-![Website Mockup](./assets/images/screenshot.png)
+![Website Mockup](./assets/images/AppScreenshot.png)
 
 ## Installation
 N/A

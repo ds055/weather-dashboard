@@ -1,4 +1,4 @@
-/* The long pathways to the elements is to override the Boostrap styling */
+/* The long pathways to the elements is to override Bootstrap styling */
 
 /* Justify content to the right when page is larger */
 header {
@@ -15,22 +15,10 @@ body header div h1 {
     text-shadow: 5px 5px 5px black;
 }
 
-/* Search for City Text */
+/* "Search for a City" Text */
 main div div h2 {
     font-size: calc(22px + .5vh);
     text-align: center;
-}
-
-/* Future forecast cards */
-.futurecast {
-    background-color: rgb(151, 140, 140);
-    color: white;
-    margin-right: 5px;
-}
-
-/* H3 class--dates on the forecast cards */
-.futDate {
-    font-size: 20px;
 }
 
 /* Search Button */
@@ -51,25 +39,6 @@ main div div button:hover {
 main div div button:active {
     background-color: rgb(7, 42, 26);
     color: white;
-}
-
-/* Name of City on Current Conditions card */
-#curr-city {
-    margin-bottom: 0px;
-}
-
-/* Date on Current Conditions card */
-#curr-day {
-    font-size: 20px;
-    margin: 0px;
-}
-
-/* Icon on Current Conditions card */
-#curr-icon, .futIcon {
-    width: 50px;
-    height: 50px;
-    padding: 0px;
-    margin: 0px;
 }
 
 /* Empty ul in which the previous searches will be populated */
@@ -99,14 +68,44 @@ main div ul{
     background-color: rgb(44, 30, 58);
 }
 
+/* Name of City on Current Conditions card */
+#curr-city {
+    margin-bottom: 0px;
+}
+
+/* Date on Current Conditions card */
+#curr-day {
+    font-size: 20px;
+    margin: 0px;
+}
+
+/* Icon on Current Conditions card */
+#curr-icon, .futIcon {
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* H3 class--dates on the forecast cards */
+.futDate {
+    font-size: 20px;
+}
+
+/* Future forecast cards */
+.futurecast {
+    background-color: rgb(151, 140, 140);
+    color: white;
+    margin-right: 5px;
+}
 
 @media screen and (max-width: 1200px) {
-    /* Center header on smaller screens */
+    /* Center header */
     header {
         justify-content: center;
     }
 
-    /* Center current weather info on smaller screens*/
+    /* Center current weather info*/
     #curr-weather-card {
         display: flex;
         flex-direction: column;
